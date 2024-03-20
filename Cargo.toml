@@ -1,0 +1,14 @@
+[package]
+name = "ng"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/yga31/ng"
+license = "MIT"
+keywords = ["cli", "nvm"]
+
+[dependencies]
+clap = { version = "4.5.3", features = ["derive"] }
+hyper = "1.2.0"
+semver = "1.0.22"
+serde = "1.0.197"
+serde_json = "1.0.114"
